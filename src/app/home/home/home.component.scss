@@ -1,0 +1,54 @@
+.example-card {
+  max-width: 350px;
+  height: 450px;
+  padding: 20px;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.hovered-card {
+    transform: scale(1.10); 
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+p {
+  color: white;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.align-itens-in-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.circular-image {
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%; 
+  background-color: #9e9c9c; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.circular-image img {
+  max-width: 100%;
+  max-height: 100%;
+}

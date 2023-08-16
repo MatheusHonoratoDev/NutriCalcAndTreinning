@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>Objetivos Selecionados</h1>
+<div mat-dialog-content>
+  <mat-list-item *ngFor="let objetivo of data">
+    <h2>Objetivo: {{ objetivo.objetivo }}</h2>
+    <p>IMC: {{ objetivo.id }}</p>
+    <p>Refeições:</p>
+    <ul>
+      <li> <p>Café da manhã: </p>{{ objetivo.refeicoes.cafe_da_manha }}</li>
+      <li> <p>Almoço: </p> {{ objetivo.refeicoes.almoco }}</li>
+      <li> <p>Jantar: </p> {{ objetivo.refeicoes.jantar }}</li>
+    </ul>
+  </mat-list-item>
+</div>

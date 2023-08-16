@@ -1,0 +1,26 @@
+<div class="center-container">
+  <div
+    class="align-items-in-page"
+    *ngFor="let card of cards"
+    (mouseenter)="onCardMouseEnter(card)"
+    (mouseleave)="onCardMouseLeave(card)"
+    [ngClass]="{ 'hovered-card': card.isHovered }"
+    (click)="redirectToCreateRegime(card.rota)"
+  >
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title> </mat-card-title>
+      </mat-card-header>
+      <img
+        class="circular-image"
+        mat-card-image
+        [src]="card.imageSrc"
+        alt="Photo of a Shiba Inu"
+      />
+      <mat-card-content>
+        <h2>{{ card.title }}</h2>
+        <p>{{ card.description }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

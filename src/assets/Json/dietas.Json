@@ -1,0 +1,213 @@
+{
+    "objetivos": [
+      {
+        "objetivo": "Perda de Peso",
+        "id": "Muito Abaixo do Peso (16-16.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Aveia com banana e nozes.",
+          "almoco": "Salada de espinafre com frango grelhado.",
+          "jantar": "Salmão com aspargos."
+        }
+      },
+      {
+        "objetivo": "Perda de Peso",
+        "id": "Abaixo do Peso (17-18.4)",
+        "refeicoes": {
+          "cafe_da_manha": "Omelete de claras com legumes.",
+          "almoco": "Wrap de peru com abacate.",
+          "jantar": "Tofu grelhado com vegetais."
+        }
+      },
+      {
+        "objetivo": "Perda de Peso",
+        "id": "Peso Normal (18.5-24.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Smoothie de frutas com iogurte.",
+          "almoco": "Quinoa com frango e vegetais assados.",
+          "jantar": "Peixe grelhado com brócolis."
+        }
+      },
+      {
+        "objetivo": "Perda de Peso",
+        "id": "Acima do Peso (25-29.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Mingau de aveia com frutas.",
+          "almoco": "Salada de atum com grão-de-bico.",
+          "jantar": "Frango assado com legumes."
+        }
+      },
+      {
+        "objetivo": "Manutenção de Peso Saudável",
+        "id": "Muito Abaixo do Peso (16-16.9)",
+        "refeicoes": {
+          "sugestao": "Inclua alimentos densos em calorias em todas as refeições e lanches."
+        }
+      },
+      {
+        "objetivo": "Manutenção de Peso Saudável",
+        "id": "Abaixo do Peso (17-18.4)",
+        "refeicoes": {
+          "sugestao": "Mantenha refeições balanceadas e inclua snacks nutritivos."
+        }
+      },
+      {
+        "objetivo": "Manutenção de Peso Saudável",
+        "id": "Peso Normal (18.5-24.9)",
+        "refeicoes": {
+          "sugestao": "Continue com uma alimentação equilibrada e variada."
+        }
+      },
+      {
+        "objetivo": "Manutenção de Peso Saudável",
+        "id": "Acima do Peso (25-29.9)",
+        "refeicoes": {
+          "sugestao": "Faça escolhas conscientes para manter o peso saudável."
+        }
+      },
+      {
+        "objetivo": "Ganho de Massa Muscular",
+        "id": "Muito Abaixo do Peso (16-16.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Omelete de ovos inteiros com abacate.",
+          "almoco": "Quinoa com frango grelhado e legumes.",
+          "jantar": "Salmão com batata-doce."
+        }
+      },
+      {
+        "objetivo": "Ganho de Massa Muscular",
+        "id": "Abaixo do Peso (17-18.4)",
+        "refeicoes": {
+          "cafe_da_manha": "Smoothie de banana e manteiga de amendoim.",
+          "almoco": "Wrap de frango com vegetais.",
+          "jantar": "Tofu grelhado com arroz integral."
+        }
+      },
+      {
+        "objetivo": "Ganho de Massa Muscular",
+        "id": "Peso Normal (18.5-24.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Aveia com frutas e claras de ovo.",
+          "almoco": "Peito de frango com arroz integral e vegetais.",
+          "jantar": "Salmão com quinoa e legumes."
+        }
+      },
+      {
+        "objetivo": "Ganho de Massa Muscular",
+        "id": "Acima do Peso (25-29.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Iogurte grego com granola e frutas.",
+          "almoco": "Salada de grão-de-bico com frango grelhado.",
+          "jantar": "Peixe assado com batata-doce."
+        }
+      },
+      {
+        "objetivo": "Aumento de Energia",
+        "id": "Muito Abaixo do Peso (16-16.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Aveia com banana e nozes.",
+          "almoco": "Wrap de frango com vegetais.",
+          "jantar": "Salmão com quinoa e brócolis."
+        }
+      },
+      {
+        "objetivo": "Aumento de Energia",
+        "id": "Abaixo do Peso (17-18.4)",
+        "refeicoes": {
+          "cafe_da_manha": "Smoothie de frutas e proteína em pó.",
+          "almoco": "Salada de atum com grão-de-bico.",
+          "jantar": "Tofu grelhado com arroz integral e legumes."
+        }
+      },
+      {
+        "objetivo": "Aumento de Energia",
+        "id": "Peso Normal (18.5-24.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Omelete de claras com legumes.",
+          "almoco": "Peito de frango com quinoa e vegetais.",
+          "jantar": "Peixe grelhado com batata-doce."
+        }
+      },
+      {
+        "objetivo": "Aumento de Energia",
+        "id": "Acima do Peso (25-29.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Mingau de aveia com frutas e nozes.",
+          "almoco": "Wrap de peru com abacate.",
+          "jantar": "Frango assado com legumes."
+        }
+      },
+      {
+        "objetivo": "Melhoria da Saúde Geral",
+        "id": "Muito Abaixo do Peso (16-16.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Omelete de claras com espinafre.",
+          "almoco": "Salada de quinoa com frango grelhado.",
+          "jantar": "Salmão com brócolis e batata-doce."
+        }
+      },
+      {
+        "objetivo": "Melhoria da Saúde Geral",
+        "id": "Abaixo do Peso (17-18.4)",
+        "refeicoes": {
+          "cafe_da_manha": "Smoothie de frutas e vegetais.",
+          "almoco": "Wrap de peru com abacate.",
+          "jantar": "Tofu grelhado com legumes."
+        }
+      },
+      {
+        "objetivo": "Melhoria da Saúde Geral",
+        "id": "Peso Normal (18.5-24.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Aveia com frutas e nozes.",
+          "almoco": "Quinoa com frango e legumes.",
+          "jantar": "Peixe grelhado com aspargos."
+        }
+      },
+      {
+        "objetivo": "Melhoria da Saúde Geral",
+        "id": "Acima do Peso (25-29.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Iogurte grego com granola e frutas.",
+          "almoco": "Salada de grão-de-bico com atum.",
+          "jantar": "Frango assado com legumes."
+        }
+      },
+      {
+        "objetivo": "Melhoria do Desempenho Esportivo",
+        "id": "Muito Abaixo do Peso (16-16.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Smoothie de frutas com proteína em pó.",
+          "almoco": "Frango grelhado com arroz integral e legumes.",
+          "jantar": "Salmão com batata-doce e espinafre."
+        }
+      },
+      {
+        "objetivo": "Melhoria do Desempenho Esportivo",
+        "id": "Abaixo do Peso (17-18.4)",
+        "refeicoes": {
+          "cafe_da_manha": "Omelete de ovos inteiros com abacate.",
+          "almoco": "Wrap de frango com vegetais e hummus.",
+          "jantar": "Tofu grelhado com quinoa e brócolis."
+        }
+      },
+      {
+        "objetivo": "Melhoria do Desempenho Esportivo",
+        "id": "Peso Normal (18.5-24.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Aveia com frutas, nozes e iogurte grego.",
+          "almoco": "Peito de frango com arroz integral e vegetais.",
+          "jantar": "Peixe grelhado com batata-doce e aspargos."
+        }
+      },
+      {
+        "objetivo": "Melhoria do Desempenho Esportivo",
+        "id": "Acima do Peso (25-29.9)",
+        "refeicoes": {
+          "cafe_da_manha": "Smoothie de proteína com frutas e aveia.",
+          "almoco": "Salada de atum com grão-de-bico e vegetais.",
+          "jantar": "Frango assado com legumes e quinoa."
+        }
+      }
+    ]
+  }
+  
