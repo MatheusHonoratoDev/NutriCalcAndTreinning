@@ -33,14 +33,6 @@ export class HomeComponent {
   ];
 
   constructor(private router: Router) {}
-  
-  onCardMouseEnter(card: any) {
-    card.isHovered = true;
-  }
-
-  onCardMouseLeave(card: any) {
-    card.isHovered = false;
-  }
 
   redirectToCreateRegime(rota: string | undefined) {
     if (rota) {
