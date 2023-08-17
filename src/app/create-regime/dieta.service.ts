@@ -12,4 +12,5 @@ export class DietaService {
   getObjectivos(): Observable<DietaData> {
     return this.http.get<DietaData>('../../assets/Json/dietas.Json');
   }
+
 }

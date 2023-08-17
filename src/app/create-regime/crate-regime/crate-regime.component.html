@@ -14,7 +14,7 @@
             />
           </mat-form-field>
           <div>
-            <button mat-button matStepperNext [disabled]="!nameForm.valid" class="button-size">
+            <button mat-button matStepperNext [disabled]="!nameForm.valid" >
               Next
             </button>
           </div>
@@ -23,7 +23,7 @@
       <mat-step [stepControl]="ageForm">
         <form [formGroup]="ageForm">
           <ng-template matStepLabel>Idade</ng-template>
-          <mat-form-field>
+          <mat-form-field class="width-100"> 
             <mat-label>Idade</mat-label>
             <input
               matInput
@@ -42,7 +42,7 @@
       <mat-step [stepControl]="pesoForm">
         <form [formGroup]="pesoForm">
           <ng-template matStepLabel>Peso</ng-template>
-          <mat-form-field>
+          <mat-form-field class="width-100">
             <mat-label>Peso</mat-label>
             <input
               matInput
@@ -62,7 +62,7 @@
       <mat-step [stepControl]="alturaForm">
         <form [formGroup]="alturaForm">
           <ng-template matStepLabel>Altura</ng-template>
-          <mat-form-field>
+          <mat-form-field class="width-100">
             <mat-label>Altura</mat-label>
             <input
               matInput
@@ -74,7 +74,7 @@
           <mat-step [stepControl]="objetivoForm">
             <form [formGroup]="objetivoForm">
               <ng-template matStepLabel>Objetivo</ng-template>
-              <mat-form-field>
+              <mat-form-field class="width-100">
                 <mat-select formControlName="obj">
                   <mat-option *ngFor="let iten of obj" [value]="iten"  >
                     {{ iten }}

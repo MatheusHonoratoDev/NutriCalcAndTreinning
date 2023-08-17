@@ -10,12 +10,13 @@ import { DialogImcComponent } from './dialog-imc/dialog-imc.component';
 @NgModule({
   declarations: [
     CrateRegimeComponent,
-    DialogImcComponent
+    DialogImcComponent,
   ],
   imports: [
     CommonModule,
     CreateRegimeRoutingModule,
-    SharedModule
+    SharedModule,
+
   ]
 })
 export class CreateRegimeModule { }
