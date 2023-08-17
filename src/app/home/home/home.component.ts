@@ -13,7 +13,7 @@ export class HomeComponent {
       description: 'Crie seu treino baseado nas suas preferências.',
       imageSrc: '../../../assets/img/exercicio_318-486884.avif',
       isHovered: false,
-      rota: '/createRegime'
+      rota: '/gym'
     },
     {
       title: 'Monte minha dieta',

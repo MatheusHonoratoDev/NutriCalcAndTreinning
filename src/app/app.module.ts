@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { CreateRegimeModule } from './create-regime/create-regime.module';
 import { HttpClientModule } from '@angular/common/http';
+import { GymModule } from './gym/gym.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserAnimationsModule,
     MatToolbarModule,
     CreateRegimeModule,
-    HttpClientModule
+    HttpClientModule,
+    GymModule
   ],
   providers: [],
   bootstrap: [AppComponent]
