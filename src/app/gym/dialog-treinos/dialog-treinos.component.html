@@ -63,21 +63,21 @@
       <div class="container">
         <div>
           <label>Exercicios:</label>
-          <mat-list-item *ngFor="let item of treinningC">
-            <span> {{ item }} </span>
+          <mat-list-item *ngFor="let item of treinningC" class="padding-10">
+            <span > {{ item }} </span>
           </mat-list-item>
         </div>
         <div>
           <label>Series:</label>
 
-          <mat-list-item *ngFor="let item of serieC" >
+          <mat-list-item *ngFor="let item of serieC" class="padding-10"  >
             {{ item || '-' }}
           </mat-list-item>
         </div>
         <div>
           <label>Repetições:</label>
 
-          <mat-list-item *ngFor="let item of repeticaoC">
+          <mat-list-item *ngFor="let item of repeticaoC" class="padding-10">
             {{ item || '-' }}
           </mat-list-item>
         </div>

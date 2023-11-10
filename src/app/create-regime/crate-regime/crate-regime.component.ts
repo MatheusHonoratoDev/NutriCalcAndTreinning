@@ -58,7 +58,7 @@ export class CrateRegimeComponent {
     const peso = parseFloat(this.pesoForm.value.peso);
     const altura = parseFloat(this.alturaForm.value.altura) / 100;
     const imc = peso / (altura * altura);
-    return imc
+        return imc
   }
 
   ngOnInit(): void {
@@ -111,10 +111,10 @@ export class CrateRegimeComponent {
   
   mostrarDialogImc(objetivoExcedente: any) {
     console.log('Objetivo com base no IMC:', objetivoExcedente);
-    this.dialog.open(DialogImcComponent, {
+        this.dialog.open(DialogImcComponent, {
       data: [objetivoExcedente],
-      height: '400px',
-      width: '600px'
+      height: '600px',
+      width: '1000px'
     });
   }
   
