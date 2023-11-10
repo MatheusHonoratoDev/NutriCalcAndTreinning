@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { GymService } from '../gym.service';
+import { DialogTreinosComponent } from '../dialog-treinos/dialog-treinos.component';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-gym',
@@ -8,6 +10,7 @@ import { GymService } from '../gym.service';
   styleUrls: ['./gym.component.scss'],
 })
 export class GymComponent {
+
   selectedObjective: any = [];
 
   obj: string[] = [
@@ -34,9 +37,11 @@ export class GymComponent {
   objetivoForm = this._formBuilder.group({
     obj: ['', Validators.required],
   });
+  
   constructor(
     private _formBuilder: FormBuilder,
-    private gymService: GymService
+    private gymService: GymService,
+    public dialog: MatDialog
   ) {}
 
   ngOnInit(): void {
@@ -66,7 +71,12 @@ export class GymComponent {
           (treino: any) => treino.id === convertNumber &&
           treino.objetivo === objetivoFormValue
         );
-        console.log(filteredTreinos);
+        this.dialog.open(DialogTreinosComponent, {
+          width: '600px',
+          data: {
+            trainning: filteredTreinos,
+          },
+        });
       }
     } else {
       console.log('disponibilidadeFormValue is null or undefined');
